@@ -1,0 +1,149 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: "Roboto", serif; 
+}
+
+/* TYPOGRAPHY */
+
+    h1{
+       font-size: 3em;
+       font-weight: 900;
+       color: #f9faf8; 
+    }
+
+    .hero-content p {
+        font-size: 1.2em;
+        color: #E5E7EB;
+    }
+
+    .section-random-title {
+        font-size: 2.2em;
+        font-weight: 900;
+        color: #1F2937;
+        text-align: center;
+    }
+
+    /* BUTTONS */
+
+    .hero-btn {
+        background-color: #3882F6;
+        color: #FFF;
+        border: none;
+        width: 125px;
+        height: 36px;
+        font-size: 1.2em;
+        border-radius: 5px;
+        display: block;
+        margin: 3rem 0;
+    }
+
+    /* LAYOUT */
+header {
+    background-color: #1F2937;
+}
+
+.navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0;
+    padding: 1rem 3rem;
+}
+
+ul {
+    display: flex;
+    color: #FFF;
+    list-style: none;
+    gap: 30px;
+}
+
+.logo {
+    font-size: 1.5em;
+    color: #FFF;
+}
+
+.hero-container {
+    display: flex;
+    margin: 3rem;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.hero-image img {
+    display: block;
+    width: 500px;
+    margin: 3rem;
+}
+
+
+.section-random {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin: 5rem;
+    gap: 20px;
+}
+
+
+
+.section-random img {
+    width: 200px;
+    border-radius: 15px;
+    display: block;
+}
+
+.quote-section {
+    background-color: #E5E7EB;
+    display: flex;
+    justify-content: center;
+    padding: 3rem;
+
+}
+
+.quote-container {
+    width: 600px;
+    display: flex;
+    flex-direction: column;
+}
+
+.euote-text {
+    color: #1F2937;
+    font-size: 2.2em;
+    margin: 2rem;
+}
+
+.quote-author {
+    text-align: end;
+}
+
+.cta-container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #3882F6;
+    color: #FFF;
+    font-weight: 900;
+    font-size: 1.2em;
+    margin: 4rem;
+}
+
+.cta-btn {
+    display: block;
+    background-color: #3882F6;
+    border: 3px solid #FFF;
+    color: #FFF;
+    border-radius: 5px;
+    width: 125px;
+    height: 36px;
+    font-size: 1em;
+}
+
+footer {
+    background-color: #1F2937;
+    color: #FFF;
+    font-weight: 900;
+    margin: 0;
+    padding: 1rem;
+    text-align: center;
+}
